@@ -19,7 +19,7 @@ function App() {
             <Route path={ROUTES.EMPLOYEES} element={<Employees />} />
             <Route path={ROUTES.PRODUCTS} element={<Products />} />
             <Route path={ROUTES.NoMatch} element={<NoMatch />} />           
-        </Routes>        
+        </Routes>      
       </Layout>    
     </BrowserRouter>
   );
