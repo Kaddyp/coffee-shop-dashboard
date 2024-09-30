@@ -6,11 +6,13 @@ Basic layout: header, the main content area with drawer sidebar, footer
 
 Navigation between pages
 
-![demo](Video1.gif)
+![demo](Video4.gif)
+
+![demo](Video3.gif)
 
 ![demo](Video2.gif)
 
-![demo](Video3.gif)
+![demo](Video1.gif)
 
 ## Features
 

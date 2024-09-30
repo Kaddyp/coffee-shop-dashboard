@@ -8,6 +8,7 @@ import Products from "./pages/Products";
 import NoMatch from "./pages/NoMatch";
 //import Nav from './nav';
 import Layout from './component/mainLayout/layout';
+import EmployeeDetails from './component/Employees/EmployeeDetails';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route exact path={ROUTES.DASHBOARD} element={<Dashboard />} />
             <Route path={ROUTES.ORDERS} element={<Orders />} />
             <Route path={ROUTES.EMPLOYEES} element={<Employees />} />
+            <Route path={ROUTES.EMPLOYEEDETAILS} element={<EmployeeDetails />} />
             <Route path={ROUTES.PRODUCTS} element={<Products />} />
             <Route path={ROUTES.NoMatch} element={<NoMatch />} />           
         </Routes>      
